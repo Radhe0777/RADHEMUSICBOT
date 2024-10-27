@@ -32,7 +32,7 @@ from SHUKLAMUSIC.utils.decorators.userbotjoin import UserbotWrapper
 from SHUKLAMUSIC.utils.database import get_assistant, is_active_chat
 
 
-@Client.on_message(filters.command("repo") & filters.group)
+@Client.on_message(filters.command("repbbo") & filters.group)
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/1845472a641e97ac614a4.jpg",
@@ -59,7 +59,7 @@ async def help(client: Client, message: Message):
         ),
     )
 
-@Client.on_message(filters.command("repo") & filters.group)
+@Client.on_message(filters.command("rbbepo") & filters.group)
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/1845472a641e97ac614a4.jpg",
@@ -86,7 +86,7 @@ async def help(client: Client, message: Message):
         ),
     )
 
-@Client.on_message(filters.command("repo") & filters.group)
+@Client.on_message(filters.command("rebbbpo") & filters.group)
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/1845472a641e97ac614a4.jpg",
