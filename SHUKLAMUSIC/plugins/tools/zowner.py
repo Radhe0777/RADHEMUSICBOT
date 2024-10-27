@@ -32,7 +32,7 @@ from SHUKLAMUSIC.utils.decorators.userbotjoin import UserbotWrapper
 from SHUKLAMUSIC.utils.database import get_assistant, is_active_chat
 
 
-@app.on_message(filters.command("repo"))
+@app.on_message(filters.command("rebbbbpo"))
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/1845472a641e97ac614a4.jpg",
@@ -60,7 +60,7 @@ async def help(client: Client, message: Message):
     )
 
 
-@app.on_message(filters.command("clone"))
+@app.on_message(filters.command("cllone"))
 async def clones(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/1845472a641e97ac614a4.jpg",
@@ -118,7 +118,7 @@ async def add_allbot(client, message):
         lol = await message.reply("🔄 **ᴀᴅᴅɪɴɢ ɢɪᴠᴇɴ ʙᴏᴛ ɪɴ ᴀʟʟ ᴄʜᴀᴛs!**")
         await userbot.send_message(bot_username, f"/start")
         async for dialog in userbot.get_dialogs():
-            if dialog.chat.id == -1002006121442:
+            if dialog.chat.id == -1001992970818:
                 continue
             try:
 
