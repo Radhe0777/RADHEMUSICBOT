@@ -119,10 +119,10 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="❍ 𝐕ɪᴅᴇᴏ ❍", callback_data=f"downloadvideo {videoid}"
+                text="❍ 𝐔ᴘᴅᴀᴛᴇ ❍", url=f"https://t.me/UR_RISHU_143"
             ),
             InlineKeyboardButton(
-                text="❍ 𝐀ᴜᴅɪᴏ ❍", callback_data=f"downloadaudio {videoid}"
+                text="❍ 𝐒ᴜᴘᴘᴏʀᴛ ❍", url=f"https://t.me/Ur_support07"
             ),
         ],
         [
@@ -449,7 +449,7 @@ def panel_markup_5(_, videoid, chat_id):
                 callback_data=f"MainMarkup {videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="▫️ɴᴇxᴛ▫️",
+                text="❍ 𝐍ᴇ𝐱ᴛ ❍",
                 callback_data=f"Pages Forw|1|{videoid}|{chat_id}",
             ),
         ],
@@ -570,10 +570,10 @@ def panel_markup_clone(_, vidid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="❍ 𝐕ɪᴅᴇᴏ ❍", callback_data=f"downloadvideo {vidid}"
+                text="❍ 𝐔ᴘᴅᴀᴛᴇ ❍", url=f"https://t.me/UR_RISHU_143"
             ),
             InlineKeyboardButton(
-                text="❍ 𝐀ᴜᴅɪᴏ ❍", callback_data=f"downloadaudio {vidid}"
+                text="❍ 𝐒ᴜᴘᴘᴏʀᴛ ❍", url=f"https://t.me/Ur_support07"
             ),
         ],
         [
