@@ -58,7 +58,7 @@ async def userdel(client, message: Message, _):
         await message.reply_text(_["sudo_8"])
 
 
-photo_url = "https://telegra.ph/file/1845472a641e97ac614a4.jpg"
+photo_url = "https://envs.sh/Amn.jpg"
 
 
 @app.on_message(
