@@ -27,9 +27,9 @@ def track_markup(_, user_id, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="Replay", callback_data=f"ADMIN Replay|{chat_id}"
+                text="❍ 𝐑ᴇᴘʟᴀʏ ❍", callback_data=f"ADMIN Replay|{chat_id}"
             ),
-            InlineKeyboardButton(text="End", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="❍ 𝐄ɴᴅ ❍", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
             InlineKeyboardButton(
@@ -414,7 +414,7 @@ def panel_markup_2(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="🔸ʙᴀᴄᴋ🔸",
+                text="❍ 𝐁ᴀᴄᴋ ❍",
                 callback_data=f"Pages Back|1|{videoid}|{chat_id}",
             ),
         ],
